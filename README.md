@@ -1,14 +1,15 @@
 # ai-project
-1. **How does age influence a player's stats?** age vs pts, reb, ast, net_rating, usg_pct, ts_pct.
-3. **Does player height impact how much a player scores per game and total points in their career?** player_height vs pts
-4. **How does the number of games played impact a players stats?** gp, pts, reb, ast, net_rating, usg_pct
-5. **How does net rating correlate with other performance stats for high-scoring players?** net_rating, ast, reb, usg_pct, ts_pct, pts.
-6. **What combination of stats shows a star player?** pts, reb, ast, usg_pct, net_rating, ts_pct, ast_pct
-7. **How do undrafted players compare to drafted players in terms of season performance?** draft_number, pts, reb, ast, net_rating, ts_pct, gp
-8. Do players from major college programs get drafted higher and are more likely to succeed?
-9.**Are European players more skilled then American players based on stats and net rating?** country, pts, ast, ts_pct, net_rating, usg_pct
-10. **What factors like age, draft pick, height, or usage percentage are related to higher points per game?** pts age, draft_number, player_height, usg_pct, ts_pct, net_rating
-11. **Who is the best shooter in this data set whent taking account the ts %?** player_name vs ts_pct, pts, usg_pct, gp
+1. How does age affect player performance? (age → pts, reb, ast, net_rating, usg_pct, ts_pct)
+2. Do taller players score more, and does height predict scoring efficiency? (player_height → pts, ts_pct)
+3. Which stats are most different between stars and role players? (pts threshold → usg_pct, ts_pct, ast_pct, net_rating, reb)
+4. Does a high net rating mean a player is more efficient overall? (net_rating → ast, reb, usg_pct, ts_pct — filtered: pts ≥ 15)
+5. What combination of stats defines a star player? (pts, reb, ast, usg_pct, net_rating, ts_pct, ast_pct)
+6. Do undrafted players perform worse than drafted players on average? (draft_number → pts, reb, ast, net_rating, ts_pct, gp)
+7. Do players from major college programs get drafted earlier? (college → draft_number, pts, net_rating)
+8. Do international players perform differently than American players? (country → pts, ast, ts_pct, net_rating, usg_pct)
+9. What factors best predict a player's scoring output? (pts ← age, draft_number, player_height, usg_pct, ts_pct, net_rating)
+10. Who are the most efficient scorers when accounting for usage and volume? (player_name → ts_pct, pts, usg_pct, gp — filter: gp ≥ 41, pts ≥ 10)
+Sonnet 4.6
 To Do -
 1. Add details -- what columns do we want to use for each question.
 
