@@ -1,4 +1,4 @@
-# ai-project
+# DA_NAME
 1. How does age affect player performance? (age → pts, reb, ast, net_rating, usg_pct, ts_pct)
 2. Do taller players score more, and does height predict scoring efficiency? (player_height → pts, ts_pct)
 3. Which stats are most different between stars and role players? (pts threshold → usg_pct, ts_pct, ast_pct, net_rating, reb)
